@@ -1,0 +1,48 @@
+---
+import Container from "@components/Container.astro";
+import PageLayout from "@layouts/PageLayout.astro";
+import { ABOUT } from "@consts";
+---
+
+<PageLayout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
+  <Container>
+    <div class="space-y-10">
+      <h1 class="animate font-semibold text-black dark:text-white">
+        About
+      </h1>
+
+      <section class="animate space-y-4">
+        <h2 class="font-semibold text-black dark:text-white">
+          Now
+        </h2>
+        <p>
+          I'm Director of Solution Advisory for Dayforce in Asia, leading the pre-sales function across Singapore, Malaysia, Japan, and India. My team works with enterprise customers to position Dayforce's HCM platform - everything from payroll and workforce management to strategic workforce planning. I spend most of my time coaching solution advisors, running strategic accounts, and trying to figure out how AI should change the craft of pre-sales.
+        </p>
+      </section>
+
+      <section class="animate space-y-4">
+        <h2 class="font-semibold text-black dark:text-white">
+          Background
+        </h2>
+        <p>
+          I came into HCM through a winding route. I ran a small Banshee bikes distribution business while finishing a mechanical engineering degree at UNITEN, then spent my first years out of school in corporate strategy at Sunway - one of Malaysia's largest conglomerates - working on M&amp;A integrations. In 2013 I co-founded an EdTech startup called Incentify, which taught me what it takes to build something from zero. I've done a lot of uncomfortable work to get things off the ground, and I think it shows up in how I operate today.
+        </p>
+        <p>
+          I moved into HCM pre-sales in 2015 at PageUp, then spent four years at SAP SuccessFactors as a Senior Solutions Consultant and Business Development Lead for SEA, earning Winners Circle recognition in 2019.
+        </p>
+        <p>
+          In September 2021 I joined Dayforce as Asia's first pre-sales hire. My job was to build the function from zero - the playbooks, the demo assets, the regional positioning, the team. I was promoted to Senior Manager in 2023 and to Director in October 2025.
+        </p>
+      </section>
+
+      <section class="animate space-y-4">
+        <h2 class="font-semibold text-black dark:text-white">
+          Personal
+        </h2>
+        <p>
+          I live in Singapore with my wife and two daughters. Outside work I spend a lot of time on my bike, I'm a specialty coffee nerd working on my V60 technique, and I'm slowly introducing my four-year-old to cycling - she's watched a few races with me and just learned to ride.
+        </p>
+      </section>
+    </div>
+  </Container>
+</PageLayout>
