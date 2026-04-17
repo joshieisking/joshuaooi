@@ -1,7 +1,7 @@
 ---
 title: "JoshuaGPT"
 description: "An interactive resume you can have a conversation with."
-date: 2026-02-09
+date: 2025-07-29
 demoURL: "https://joshieisking.github.io/joshuaGPT/"
 repoURL: "https://github.com/joshieisking/joshuaGPT"
 ---
