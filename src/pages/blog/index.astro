@@ -34,14 +34,14 @@ const years = Object.keys(posts).sort((a, b) => parseInt(b) - parseInt(a));
       {years.length > 0 ? (
         <div class="animate space-y-12">
           {years.map(year => (
-            <section class="space-y-4">
+            <section class="space-y-2">
               <div class="flex items-center gap-4">
                 <span class="text-xs font-semibold uppercase tracking-widest text-black dark:text-white">
                   {year}
                 </span>
                 <div class="h-px flex-1 bg-black/10 dark:bg-white/15"></div>
               </div>
-              <ul class="border-t border-black/10 dark:border-white/10">
+              <ul>
                 {posts[year].map((post) => (
                   <li>
                     <ArrowCard entry={post}/>
