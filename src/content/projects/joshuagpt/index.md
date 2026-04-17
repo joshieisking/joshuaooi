@@ -6,6 +6,8 @@ demoURL: "https://joshieisking.github.io/joshuaGPT/"
 repoURL: "https://github.com/joshieisking/joshuaGPT"
 ---
 
-Instead of a PDF, a chatbot that knows my background and can answer questions about my experience, projects, and what I'm looking for. Built specifically for AI company applications — the medium felt appropriate for the audience.
+Instead of a PDF, an interactive resume built to look and feel like a familiar AI chat interface. A hiring manager can ask "has he worked with enterprise customers?" or "what has he actually built?" and get a real answer, not a bullet point.
 
-The idea: a hiring manager can ask "has he worked with enterprise customers?" or "what has he actually built?" and get a real answer, not a bullet point.
+This is not a ChatGPT custom GPT or any kind of AI wrapper. It's a custom-built HTML application from scratch, designed to mimic the chat experience deliberately. The point was to send it to AI company hiring managers and have the medium do some of the talking — someone who understands the space would immediately get what it took to build it this way.
+
+Built specifically for AI company applications in mid-2025.
