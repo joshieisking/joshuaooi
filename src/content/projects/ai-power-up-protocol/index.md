@@ -6,10 +6,10 @@ demoURL: "https://joshieisking.github.io/ai_powerup/"
 repoURL: "https://github.com/joshieisking/ai_powerup"
 ---
 
-A gamified, single-file sales training application I built to experiment with AI-native learning design. No backend, no LMS, just a browser and a well-engineered prompt.
+A gamified AI training app I built for my solution advisors, delivered at our annual offsite. No backend, no LMS — just a single HTML file and a browser.
 
-Structured as a video game across four levels: Level 1 uses a word-guessing game to teach the TCREI prompting framework, Level 2 is a multi-phase AI roleplay simulation for objection handling practice with structured scoring, Level 3 builds AI literacy around agents and competitive intelligence, and a hidden secret level rewards curiosity with a reusable meta-prompt template.
+Four levels: a word-guessing game to teach prompting fundamentals, an AI roleplay simulation for objection handling, an AI literacy module covering agents and competitive intelligence, and a hidden level that rewards curiosity with a meta-prompt template.
 
-The design choice to use a game metaphor was deliberate. Most enterprise training is boring. I wanted to test whether wrapping real skill-building content in a game format would lower resistance and increase engagement.
+The game format was a deliberate bet against boring enterprise training. It paid off — the post-event survey came back with my session rated their favourite of the offsite.
 
-I also wanted to push my own limits: could I design pedagogy, UX, game mechanics, and copywriting simultaneously, using Claude as a thought partner at every step? The answer was yes, and the process taught me a lot about how to structure prompts for complex, multi-layer creative work.
+Built using Claude as a co-creator for the pedagogy, UX, and copywriting simultaneously.
