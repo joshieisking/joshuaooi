@@ -25,8 +25,9 @@ body {
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
-  @apply bg-stone-100/75 dark:bg-stone-900/25;
+  @apply bg-stone-100/80 dark:bg-stone-900/80;
   @apply backdrop-blur-sm saturate-200;
+  @apply border-b border-black/5 dark:border-white/10;
 }
 
 main {
@@ -39,8 +40,9 @@ footer {
 
 article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
-  @apply prose-headings:font-semibold prose-p:font-sans prose-p:leading-relaxed;
-  @apply prose-headings:text-black prose-headings:dark:text-white;
+  @apply prose-headings:font-sans prose-headings:font-semibold prose-headings:text-black prose-headings:dark:text-white;
+  @apply prose-p:font-serif prose-p:leading-relaxed;
+  @apply prose-li:font-serif prose-blockquote:font-serif;
 }
 
 @layer utilities {

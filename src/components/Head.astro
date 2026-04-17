@@ -1,11 +1,17 @@
 ---
 import "../styles/global.css";
-import "@fontsource/manrope/400.css";
-import "@fontsource/manrope/500.css";
-import "@fontsource/manrope/600.css";
-import manrope400 from "@fontsource/manrope/files/manrope-latin-400-normal.woff2";
-import manrope500 from "@fontsource/manrope/files/manrope-latin-500-normal.woff2";
-import manrope600 from "@fontsource/manrope/files/manrope-latin-600-normal.woff2";
+import "@fontsource/space-grotesk/400.css";
+import "@fontsource/space-grotesk/500.css";
+import "@fontsource/space-grotesk/600.css";
+import "@fontsource/space-grotesk/700.css";
+import "@fontsource/source-serif-4/400.css";
+import "@fontsource/source-serif-4/600.css";
+import sg400 from "@fontsource/space-grotesk/files/space-grotesk-latin-400-normal.woff2";
+import sg500 from "@fontsource/space-grotesk/files/space-grotesk-latin-500-normal.woff2";
+import sg600 from "@fontsource/space-grotesk/files/space-grotesk-latin-600-normal.woff2";
+import sg700 from "@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2";
+import ss400 from "@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2";
+import ss600 from "@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff2";
 
 import { ClientRouter } from "astro:transitions";
 import { SITE } from "@consts";
@@ -30,9 +36,12 @@ const { title, description, image = "/favicon-light.svg" } = Astro.props;
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
-<link rel="preload" href={manrope400} as="font" type="font/woff2" crossorigin/>
-<link rel="preload" href={manrope500} as="font" type="font/woff2" crossorigin/>
-<link rel="preload" href={manrope600} as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href={sg400} as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href={sg500} as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href={sg600} as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href={sg700} as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href={ss400} as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href={ss600} as="font" type="font/woff2" crossorigin/>
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
