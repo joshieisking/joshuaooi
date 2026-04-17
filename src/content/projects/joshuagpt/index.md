@@ -12,4 +12,4 @@ This is not a ChatGPT custom GPT or any kind of AI wrapper. It's a custom-built 
 
 Built specifically for AI company applications in mid-2025.
 
-I vibecoded this in a day for a specific application. Didn't get the role, but I'd build it the same way again.
+I vibecoded this in a day to separate my application from the pile. It worked — the hiring manager responded to say it was cool. They'd already filled the role, but honestly, getting a response at all made my day.
