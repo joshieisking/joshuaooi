@@ -13,6 +13,8 @@ It also pulls Wout's yearly stats from ProCyclingStats, scraping his rider page 
 
 Built with React, TypeScript, and Vite on the frontend, with an Express backend handling the data layer.
 
+Wout's 2025 season has wrapped and the tracker is no longer being actively updated. As of writing this, he just won Paris-Roubaix 2026 and I am absolutely losing my mind about it.
+
 ![Desktop view during Tour de France](./02_desktop_tdf.png)
 
 ![Mobile countdown view](./03_mobile_no_race.png)
